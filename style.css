@@ -5,6 +5,7 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
+  background-color: #dee5ed
 }
 header{
   background-color: white;
@@ -154,9 +155,7 @@ display: inline-block;
 .jumbo{
   position: relative;
   text-align: center;
-  background-image: url(https://i.postimg.cc/W4tGDrzm/Immagine.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+
 }
 .jumbocontainer::after{
   clear:both;
@@ -164,9 +163,12 @@ display: inline-block;
   content:"";
 }
 .jumbocontainer{
-  width: 1080px;
-  height: 534px;
+  width: 1781px;
+  height: 682px;
   margin: 0 auto;
+  background-image: url(https://i.postimg.cc/W4tGDrzm/Immagine.png);
+  background-size: contain;
+  background-repeat:no-repeat;
 
 
 
@@ -174,13 +176,15 @@ display: inline-block;
 
 .jumbocontainer img{
   height: 693px;
+  width: auto;
 
 }
 .poster{
   height: 400px;
   width: 430px;
   position: absolute;
-  left: 172.500;
+  top:100px;
+  left:180px;
   color: #33475b;
   margin-top: 30px;
 
@@ -215,24 +219,134 @@ h3{
   text-align: left;
   margin-top: 70px;
   font-size: 12px;
+  font-weight: lighter;
+  padding-right: 186px;
 
 }
-.spotcontainer::after{
-  clear:both;
-  display: table;
-  content:"";
+.spot{
+  text-align: center;
+
+
 }
+
+
 .spotcontainer{
   width: 1080px;
-  height: 1000px;
+  height: 1500px;
   margin: 0 auto;
   position: relative;
 
+
+}
+.cubo{
+  height: 400px;
+
 }
 .cubo img{
-position: absolute;
-top:100px;
-left:420px;
-width: 25%
+  width: 20%;
+  margin-top: 40px;
+}
+.words{
+  padding: 10px;
+  color: darkslategrey;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.words h2{
+  margin-top: 10px;
+  font-size: 25px;
+
+}
+.words p{
+  padding: 57px;
+  font-size: 17px;
+  line-height: 30px;
+
+}
+.crm{
+  width: auto;
+  height: 300px;
+  position: relative;
+  background-color: white;
+
+}
+.crmage{
+  width: 20%;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+#learnmore_button{
+  font-size: 16px;
+  border-radius: 3px;
+  border:1px solid #f07857;
+  padding: 4px;
+  color: white;
+  background-color: #f07857;
+  font-weight: 400;
+  margin: 20px 0px;
+  padding: 10px;
+  text-align: center;
+}
+.crm_words{
+  text-align: left;
+  position: absolute;
+  top:20px;
+  left: 400px;
+  color:darkslategrey;
+  margin-top: 25px;
+}
+
+.crm_words span{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight:700;
+}
+.crm_words p{
+  margin-top: 20px;
+  padding-right: 170px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.features_wrapper {
+  color: darkslategrey;
+
+
+}
+.features_wrapper p{
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: uppercase;
+
+}
+.features_wrapper hr{
+  
+  text-align: center;
+  margin-right: 20px;
+  width: 450px;
+  height: 1px;
+  background-color: darkslategrey;
+  float: right;
+}
+.features_wrapper ul{
+  list-style-type:none;
+  color: darkslategrey;
+
+}
+
+
+.features_wrapper li{
+  margin-top: 30px;
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  padding-right: 30px;
+font-weight: normal;
+
+}
+.features_wrapper i{
+  background-color: white;
+  color:#f07857;
+  padding-right: 10px;
 
 }
